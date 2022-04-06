@@ -30,8 +30,6 @@ export const useForm = () => {
         if(form.nombre === "" || form.descripcion === "" || form.select === ""){
             console.log("Campos vacíos");
         }else {
-            console.log(form.nombre);
-            console.log(servicio.nombre);
             servicio.nombre = form.nombre;
             servicio.descripcion = form.descripcion;
             servicio.select = form.select;

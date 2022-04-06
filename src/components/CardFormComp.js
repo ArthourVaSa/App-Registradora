@@ -8,7 +8,6 @@ export const CardFormComp = () => {
     const {form,handleChange,handleSubmit, handleCancel, handleEdit} = useForm();
     const {nombre, descripcion, select} = form;
 
-    console.log(serviceContext.ediService);
   return (
     <Card style={{ width: '100%' }} className='form-card'>
     <Card.Body>

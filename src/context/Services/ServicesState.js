@@ -26,7 +26,6 @@ export const ServicesState = (props) => {
     const getServices = (select) => {
         try {
             const datos = state.services.filter((service) => service.select === select);
-            console.log(datos);
             dispatch({type: GET_SERVICE, payload: datos});
         } catch (error) {
             console.log(error);
