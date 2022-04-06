@@ -1,0 +1,15 @@
+.btn{
+    text-decoration: none;
+}
+
+.group-cards .cont{
+    display: grid;
+    grid-gap: 40% / 115px;
+    justify-content: space-around;
+    
+}
+
+.cards{
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
